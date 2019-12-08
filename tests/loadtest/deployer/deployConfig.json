@@ -1,39 +1,37 @@
-{
-  "DockerName": "quarkchaindocker/goquarkchain",
-  "Hosts": [
-    {
-      "IP": "xxx.xxx.xxx.xxx",
-      "Port": 22,
-      "User": "root",
-      "Password": "xxxxxxx",
-      "IsMaster":true,
-      "SlaveNumber": 1,
-      "ClusterID": 0
-    },
-    {
-      "IP": "xxx.xxx.xxx.xxx",
-      "Port": 22,
-      "User": "root",
-      "Password": "xxxxxxx",
-      "IsMaster":true,
-      "SlaveNumber": 1,
-      "ClusterID": 1
-    },
-    {
-      "IP": "xxx.xxx.xxx.xxx",
-      "Port": 22,
-      "User": "root",
-      "Password": "xxxxxxx",
-      "IsMaster":true,
-      "SlaveNumber": 1,
-      "ClusterID": 2
-    }
-  ],
-  "CHAIN_SIZE": 4,
-  "SHARD_SIZE": 8,
-  "ExtraClusterConfig": {
-    "TargetRootBlockTime": 20,
-    "TargetMinorBlockTime": 4,
-    "GasLimit": 96000000
-  }
+  {
+	"DockerName": "quarkchaindocker/goquarkchain",
+	"Hosts": [
+	{
+	"IP": "172.22.0.16",
+	"Port": 22,
+	"User": "root",
+	"Password": "Wangjie*123",
+	"IsMaster": true,
+	"SlaveNumber": 32,
+	"ClusterID": 0
+	},{
+	"IP": "172.22.0.7",
+	"Port": 22,
+	"User": "root",
+	"Password": "Wangjie*123",
+	"IsMaster": true,
+	"SlaveNumber": 32,
+	"ClusterID": 1
+	},{
+	"IP": "172.22.0.15",
+	"Port": 22,
+	"User": "root",
+	"Password": "Wangjie*123",
+	"IsMaster": true,
+	"SlaveNumber": 64,
+	"ClusterID": 2
+	}
+	],
+	"CHAIN_SIZE": 128,
+	"SHARD_SIZE": 2,
+	"ExtraClusterConfig": {
+		"TargetRootBlockTime": 20,
+		"TargetMinorBlockTime": 4,
+		"GasLimit": 96000000
+	}
 }
