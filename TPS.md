@@ -33,7 +33,7 @@
 
 **Video URL**
 
-[URL for the video showing how you produced the above TPS. Also, the submitted video should include stats of the observations of at least two clusters’ peak TPS.]
+[https://youtu.be/JFgl4-1KGkk]
 
 **Output From `stats` Tool (Highest TPS)**
 ```
